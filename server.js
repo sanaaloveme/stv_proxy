@@ -16,14 +16,21 @@ app.get("/", (req, res) => {
 app.get("/watch/:id", (req, res) => {
 
     const id = req.params.id;
+    const token = req.query.token;
+
+    // 🔐 التحقق من التوكن
+    if (token !== SECRET_TOKEN) {
+        return res.status(403).send("Invalid Token ❌");
+    }
+
     const url = streams[id];
 
     if (!url) {
-        return res.status(404).send("Not found");
+        return res.status(404).send("Stream not found");
     }
 
-    // نرسل المستخدم مباشرة للمصدر
-    res.redirect(url);
+    // 🚀 إعادة توجيه مباشرة للبث
+    return res.redirect(url);
 });
 
 const PORT = process.env.PORT || 3000;
