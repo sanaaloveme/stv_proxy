@@ -6,7 +6,7 @@ const app = express();
 
 // مثال روابط (سنغيرها لاحقًا)
 const streams = {
-    "123": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8"
+    "123": "http://clubsmartlive.com:80/live/rYTCg4asp/twJ15X9a/44392.ts"
 };
 
 app.get("/", (req, res) => {
