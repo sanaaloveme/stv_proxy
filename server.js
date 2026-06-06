@@ -15,7 +15,7 @@ const WINDOW = 30; // كل 30 ثانية
 const streams = {
     "123": "http://clubsmartlive.com:80/live/rYTCg4asp/twJ15X9a/44392.ts",
     "456": "http://clubsmartlive.com:80/live/rYTCg4asp/twJ15X9a/44393.ts",
-    "789": "http://clubsmartlive.com:80/live/rYTCg4asp/twJ15X9a/44394.ts"
+    "789": "http://clubsmartlive.com:80/live/rYTCg4asp/twJ15X9a/44390.ts"
 };
 
 // ===============================
