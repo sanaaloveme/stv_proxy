@@ -14,6 +14,8 @@ const WINDOW = 60; // كل 30 ثانية
 // ===============================
 const streams = {
     "123": "http://clubsmartlive.com:80/live/rYTCg4asp/twJ15X9a/44392.ts",
+    "234": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+    "345": "https://stream-lb.livemediama.com/2m/hls/master.m3u8",
     "456": "http://clubsmartlive.com:80/live/rYTCg4asp/twJ15X9a/44393.ts",
     "789": "http://clubsmartlive.com:80/live/rYTCg4asp/twJ15X9a/44390.ts"
 };
