@@ -13,11 +13,11 @@ const WINDOW = 60; // كل 30 ثانية
 // 📺 روابط البث
 // ===============================
 const streams = {
-    "123": "https://localhost:3000/streams/1781198990476/index.m3u8",
+    "123": "http://localhost:3000/streams/1781198990476/index.m3u8",
     "234": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
     "345": "https://stream-lb.livemediama.com/2m/hls/master.m3u8",
-    "456": "https://clubsmartlive.com:80/live/rYTCg4asp/twJ15X9a/44393.ts",
-    "789": "https://clubsmartlive.com:80/live/rYTCg4asp/twJ15X9a/44390.ts"
+    "456": "http://clubsmartlive.com:80/live/rYTCg4asp/twJ15X9a/44393.ts",
+    "789": "http://clubsmartlive.com:80/live/rYTCg4asp/twJ15X9a/44390.ts"
 };
 
 // ===============================
